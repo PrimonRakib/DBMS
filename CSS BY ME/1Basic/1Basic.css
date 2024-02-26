@@ -1,0 +1,31 @@
+h3{
+    color: rgb(0, 255, 64);
+}
+.para{
+    color:seagreen;
+
+}
+/* .para die para class select krteci */
+
+#btn{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+/* #btn die btn id selcet krci */
+/* 
+#btn:hover//
+a:hover-------------- Aivabe hover kra hoi
+hoover-kono jinis er upor tir nir color change hoie jabe*/
+
+#btn:hover{
+    background-color: black;
+    color: blue;
+}
+/* 
+#btn:hover//
+a:hover-------------- Aivabe hover kra hoi
+hoover-kono jinis er upor tir nir color change hoie jabe*/
+
+h2:hover{
+    color: chartreuse;
+}

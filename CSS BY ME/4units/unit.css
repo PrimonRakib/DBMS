@@ -1,0 +1,88 @@
+body {
+    background-color: hsl(0, 0%, 94%);
+}
+
+
+/*? for Pixels  */
+
+/* 
+h1{
+    font-size: 54px;
+    color: purple;
+}
+p{
+    font-size: 36px;
+}
+li{
+    font-size: 44px;
+
+} */
+
+
+/*? for Percentages  100% = 16px  */
+/* 1px = 6.25% */
+
+/* h1{
+font-size: 337.5%;
+
+} */
+/* 337.5%=54px */
+/* p{
+    font-size: 225%;
+}
+li{
+    font-size: 275%;
+
+} */
+
+
+/*? for 1 em  = 16px */
+/* h1{
+    font-size: 3.375em;
+}
+p{
+    font-size: 2.25em;
+}
+.parent{
+    font-size: 10px;
+} */
+/* now my 1em=10px hoie gece parent er karone .li er font size hbe (10*2.75) px */
+/* li{
+    font-size: 2.75em;
+} */
+
+
+/*? for 1 rem = we can specify the font size of our will */
+/* we need 1rem = 10px, it makes our life easy  */
+/* target one root element */
+
+/* html{
+    font-size: 10px;
+} */
+
+/* 16px=100%
+1px=6.25%
+10px=62.5% */
+
+html{
+    font-size: 62.5%;
+}
+/* Aikane(html) font size change kre dile h1,p,li, te size ai hisebe choto hoie jabe
+   
+*/
+
+
+/* 1 rem=10px hoie jabe */
+h1{
+    font-size: 5.4rem;
+} /*5.4rem=54px */
+p{
+    font-size: 3.6rem;
+}
+.parent{
+    font-size: 20px;
+}
+/* rem er ketre parent effect fele na */
+li{
+    font-size: 4.4rem;
+}

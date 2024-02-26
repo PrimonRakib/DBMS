@@ -1,0 +1,101 @@
+/* thapa teke bakka deko */
+
+html {
+    /* font-size: 62.5%; */
+    font-family: "Urbanist", sans-serif;
+  }
+  
+  #main-heading {
+    font-size: 64px;
+    color: #1e1403;
+  }
+  
+  p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 1.5;
+  }
+  .section-border{
+    /* width: 1000px;
+    color:#fff;
+    background-color: darkcyan; */
+    /* border here */
+    /* border: 15px solid #003180; */
+    /* Ai 1line k 3line e likci */
+
+    
+  /*?  write each property individual  */
+  /* border-width: 15px;
+  border-style: solid;
+  border-color: #003180; */
+
+   /*? we can write them individually too  */
+   /* border-top:15px solid #003180 ;
+   border-right: 15px dotted red;
+   border-bottom: 15px ridge green;
+   border-left: 15px double #003b99; */
+
+
+
+   /*? Now, further we can go more deeper with each individual values. */
+   /* border-top-width: 15px;
+   border-top-style: solid;
+   border-top-color: black; */
+
+  }
+  
+
+  /** ------------------------------------- -->
+/**  BORDERS IN CSS3
+/** ---------------------------------------- --> */
+/*? Border-radius: The border-radius CSS property rounds the corners of an element's outer border edge. You can set a single radius to make circular corners, or two radii to make elliptical corners. */
+
+/* Radius is set for all 4 sides */
+/*? border-radius: 10px; */
+
+/* top-left-and-bottom-right | top-right-and-bottom-left */
+/*? border-radius: 10px 20%; */
+
+/* Creating Custom Radius for Each Corner:  */
+/* top-left | top-right | bottom-right | bottom-left */
+/*? border-radius: 15px 5px 10px 20px; */
+div{
+    width: 500px;
+    height: 500px;
+    background-color: #5e9de9;
+    /* border-radius: 100px; */
+    /* border-radius: 100px 10px 250px 0px; */
+    /* border-radius: 50%; */
+    border-radius: 99% 1% 25% 75% / 25% 25% 75% 73%;
+    /* website teke nici */
+
+    background-image: linear-gradient(
+     to right top,
+     #051937,
+     #004D7A,
+     #008793,
+     #00bf72,
+     #a8eb12
+       
+    );
+}
+
+/** ------------------------------------- -->
+/** NOTES + TIPS
+/** ---------------------------------------- --> */
+/* checkout more on here  👉 https://9elements.github.io/fancy-border-radius/ */
+/* checkout more on here  👉 https://10015.io/tools/css-border-radius-generator */
+
+/** ------------------------------------- -->
+/** INTERVIEW QUESTIONS
+/** ---------------------------------------- --> */
+
+/*? 1: How do you set a border around an HTML element in CSS? Explain the border property and its values.; */
+/* border: 2px solid #333; */
+
+/*? 2: How can you create rounded corners for an HTML element in CSS?  */
+/* border-radius: 10px; */
+
+/*? 3: How do you create a circular border using border-radius? */
+/* border-radius: 50%; */
